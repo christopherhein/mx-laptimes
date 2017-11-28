@@ -5,4 +5,4 @@ jobs.
 
 ## Deployment
 
-Deployment is 100% handled by adding code and pushing it to the repo
+Deployment is 100% handled by adding code and pushing it to the repo.

@@ -29,7 +29,7 @@ node {
       requirePackageUpdate: false, tag: '${BUILD_NUMBER}', timeout: 10
   }
 
-  stage('Publish') {
+  stage('Publish Container') {
     twistlockPublish ca: '', cert: '', \
       dockerAddress: 'unix:///var/run/docker.sock', key: '', \
       logLevel: 'true', repository: repo, tag: '${BUILD_NUMBER}', \
